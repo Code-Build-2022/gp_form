@@ -1,8 +1,15 @@
-@media only screen and (max-width: 600px) {
+
+
+  .my{
+    padding: 0;
    
-    .my{
-        padding-left: 20px;
-        padding-top: 30px;
-        padding-right: 30px;
-    }
+  }
+  body{
+    background-color: #63d2ae;
+  }
+  
+  .mycol{
+    background-color: #25b189;
+    height: 90px;
+    background-color: #459a7d;
   }

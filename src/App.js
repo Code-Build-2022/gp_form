@@ -16,15 +16,15 @@ const App = () => {
     };
   
     return (
-        <Container className='my mb-5'>
-            <Row className='mt-4'>
-                <Col>
-                <h5>Welcome to GP & Co.</h5>
-                </Col>
-            </Row>
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
+      <>
+      <div className='p-5 fdiv'>
+        <Container className='my border shadow-lg rounded'>
+    
+          <Col md="12 " className='mycol d-flex justify-content-center align-items-center rounded'><h4>Welcome to Gp & Co.</h4></Col>
+      
+      <Form className='px-4 pt-2 pb-5 bg-white' noValidate validated={validated} onSubmit={handleSubmit}>
         <Row className="mb-1 mt-3">
-          <Form.Group as={Col} md="4" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Full name"
@@ -37,7 +37,7 @@ const App = () => {
   </FloatingLabel>
       
           </Form.Group>
-          <Form.Group as={Col} md="4" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Email address"
@@ -52,7 +52,7 @@ const App = () => {
         </Row>
 
         <Row>
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
+        <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Phone"
@@ -65,7 +65,7 @@ const App = () => {
   </FloatingLabel>
       
           </Form.Group>
-          <Form.Group as={Col} md="4" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Permanent address"
@@ -77,9 +77,8 @@ const App = () => {
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
   </FloatingLabel>
           </Form.Group>
-        </Row>
-        <Row>
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
+       
+        <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Adhaar Number"
@@ -92,12 +91,12 @@ const App = () => {
   </FloatingLabel>
       
           </Form.Group> 
-          <Form.Group as={Col} md="4" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Pan Number"
     className="mb-3">
-    <Form.Control required type="number" placeholder="name@example.com" />
+    <Form.Control required type="text" placeholder="name@example.com" />
     <Form.Control.Feedback type="invalid">
                 Please enter pan card number.
               </Form.Control.Feedback>
@@ -105,12 +104,12 @@ const App = () => {
   </FloatingLabel>
       
           </Form.Group> 
-          <Form.Group as={Col} md="8" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
           <FloatingLabel
     controlId="floatingInput"
     label="Challan Number"
     className="mb-3">
-    <Form.Control  type="number" placeholder="name@example.com" />
+    <Form.Control  type="text" placeholder="name@example.com" />
     <Form.Control.Feedback type="invalid">
                 Please enter challan number.
               </Form.Control.Feedback>
@@ -134,7 +133,7 @@ const App = () => {
                 Please uplaod pan card.
               </Form.Control.Feedback>
   </Form.Group>
-  <Form.Group as={Col} md="8" controlId="formFile" className="mb-3">
+  <Form.Group as={Col} md="4" controlId="formFile" className="mb-3">
     <Form.Label>Uplaod challan</Form.Label>
     <Form.Control  type="file" /> 
     
@@ -143,6 +142,8 @@ const App = () => {
         <Button type="submit">Submit form</Button>
       </Form>
       </Container>
+      </div>
+      </>
     );
 }
 
