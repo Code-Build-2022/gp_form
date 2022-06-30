@@ -17,7 +17,7 @@ const App = () => {
   
     return (
       <>
-      <div className='p-5 fdiv'>
+      <div className='p-3 fdiv'>
         <Container className='my border shadow-lg rounded'>
     
           <Col md="12 " className='mycol d-flex justify-content-center align-items-center rounded'><h4>Welcome to Gp & Co.</h4></Col>
