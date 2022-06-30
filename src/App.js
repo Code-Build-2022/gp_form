@@ -70,7 +70,7 @@ const App = () => {
     controlId="floatingInput"
     label="Permanent address"
     className="mb-3">
-    <Form.Control required type="email" placeholder="name@example.com" />
+    <Form.Control required type="text" placeholder="name@example.com" />
     <Form.Control.Feedback type="invalid">
                 Please enter the permanent address.
               </Form.Control.Feedback>
