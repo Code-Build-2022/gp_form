@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+   
+    .my{
+        padding-left: 40px;
+        padding-top: 30px;
+        padding-right: 60px;
+    }
+  }

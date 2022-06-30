@@ -16,7 +16,7 @@ const App = () => {
     };
   
     return (
-        <Container className='mb-5'>
+        <Container className='my mb-5'>
             <Row className='mt-4'>
                 <Col>
                 <h5>Welcome to GP & Co.</h5>
