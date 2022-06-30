@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gp_form/static/css/main.f0d685eb.css",
+    "main.js": "/gp_form/static/js/main.08aebab9.js",
+    "index.html": "/gp_form/index.html",
+    "main.f0d685eb.css.map": "/gp_form/static/css/main.f0d685eb.css.map",
+    "main.08aebab9.js.map": "/gp_form/static/js/main.08aebab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0d685eb.css",
+    "static/js/main.08aebab9.js"
+  ]
+}
